@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>填写个人信息</title>
+</head>
+<body align="center">
+<h1>请输入您的个人信息</h1>
+<form action="./Reg" method="post">
+<p>用户名：<input type="text" name="uName"></p>
+<p>密码:<input type="password" name="pwd"></p>
+<p>性别：<input type="radio" name="sex" value="0">男
+<input type="radio" name="sex" value="1">女</p>
+<p>兴趣：<input type="checkbox" name="interest" value="1">唱歌
+<input type="checkbox" name="interest" value="2">跳舞
+<input type="checkbox" name="interest" value="3">绘画
+<input type="checkbox" name="interest" value="4">篮球
+</p>
+<p>所在地：<select name="place">
+<option value="0">--请选择--</option>
+<option value="1">沈阳</option>
+<option value="2">大连</option>
+<option value="3">铁岭</option>
+</select></p>
+<p>自我介绍：<textarea rows="5" cols="20" name="intro">说点什么吧。。。</textarea>
+<p><input type="submit" value="提交">&nbsp;&nbsp;&nbsp;<input type="reset" value="重置"></p>
+</form>
+</body>
+</html>
